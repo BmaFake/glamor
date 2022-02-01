@@ -4,7 +4,6 @@ package net.mcreator.pruebabma.item;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.PickaxeItem;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 
@@ -36,10 +35,5 @@ public class GlamorpicaxeItem extends PickaxeItem {
 			}
 		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 		setRegistryName("glamorpicaxe");
-	}
-
-	@Override
-	public boolean isFoil(ItemStack itemstack) {
-		return true;
 	}
 }

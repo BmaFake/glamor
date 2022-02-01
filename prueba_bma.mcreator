@@ -1,0 +1,84 @@
+{
+  "mod_elements": [
+    {
+      "name": "Gladimite",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gladimite"
+    },
+    {
+      "name": "Gladite",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gladite"
+    },
+    {
+      "name": "Glamorpicaxe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glamorpicaxe"
+    },
+    {
+      "name": "Picaxecraft",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "picaxecraft"
+    },
+    {
+      "name": "Gladitecraft",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gladitecraft"
+    },
+    {
+      "name": "Gladimiteore",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gladimiteore"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.prueba_bma.gladite": "Gladite",
+      "block.prueba_bma.gladimite": "Gladimite",
+      "item.prueba_bma.glamorpicaxe": "Glorpicaxe",
+      "item.prueba_bma.gladimiteore": "Gladimita"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "prueba_bma",
+    "modName": "Prueba",
+    "version": "1.0.0",
+    "author": "jamm58, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "modElementsPackage": "net.mcreator.pruebabma",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100353117
+}

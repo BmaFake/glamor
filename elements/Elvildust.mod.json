@@ -3,27 +3,27 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "gladite",
+    "texture": "elvildust",
     "customModelName": "Normal",
-    "name": "Gladite",
-    "rarity": "RARE",
+    "name": "Elvildust",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Bmod"
     },
-    "stackSize": 64,
+    "stackSize": 32,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
-      "value": "CUSTOM:Glamorpicaxe"
+      "value": ""
     },
     "destroyAnyBlock": false,
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
-    "damageVsEntity": 1.0,
+    "damageVsEntity": 0.0,
     "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

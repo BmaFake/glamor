@@ -7,10 +7,10 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.pruebabma.init.PruebaBmaModTabs;
 
-public class GladimiteoreItem extends Item {
-	public GladimiteoreItem() {
-		super(new Item.Properties().tab(PruebaBmaModTabs.TAB_BMOD).stacksTo(16).rarity(Rarity.COMMON));
-		setRegistryName("gladimiteore");
+public class ElvildustItem extends Item {
+	public ElvildustItem() {
+		super(new Item.Properties().tab(PruebaBmaModTabs.TAB_BMOD).stacksTo(32).rarity(Rarity.COMMON));
+		setRegistryName("elvildust");
 	}
 
 	@Override

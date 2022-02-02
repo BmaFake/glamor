@@ -1,6 +1,17 @@
 {
+  "item.minecraft.potion.effect.elvil_potion": "Potion of Elvil ",
   "item.prueba_bma.gladite": "Gladite",
+  "item.prueba_bma.elvildust": "Elvildust",
+  "item.prueba_bma.darkmor_leggings": "Darkmor Leggings",
+  "item.minecraft.tipped_arrow.effect.elvil_potion": "Arrow of Elvil ",
+  "item.prueba_bma.darkmor_boots": "Darkmor Boots",
+  "item.minecraft.lingering_potion.effect.elvil_potion": "Lingering Potion of Elvil ",
+  "item.prueba_bma.gladimiteore": "Gladore",
+  "item.prueba_bma.darkmor_chestplate": "Darkmor Body",
+  "itemGroup.tabbmod": "Bmod",
   "block.prueba_bma.gladimite": "Gladimite",
+  "item.minecraft.splash_potion.effect.elvil_potion": "Splash Potion of Elvil ",
   "item.prueba_bma.glamorpicaxe": "Glorpicaxe",
-  "item.prueba_bma.gladimiteore": "Gladimita"
+  "item.prueba_bma.darkmor_helmet": "Darkmor Helmet",
+  "block.prueba_bma.elvil": "Elvil"
 }

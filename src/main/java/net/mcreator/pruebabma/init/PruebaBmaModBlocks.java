@@ -13,6 +13,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.pruebabma.block.GladimiteBlock;
+import net.mcreator.pruebabma.block.ElvilBlock;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -21,6 +22,7 @@ import java.util.ArrayList;
 public class PruebaBmaModBlocks {
 	private static final List<Block> REGISTRY = new ArrayList<>();
 	public static final Block GLADIMITE = register(new GladimiteBlock());
+	public static final Block ELVIL = register(new ElvilBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
@@ -37,6 +39,7 @@ public class PruebaBmaModBlocks {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			GladimiteBlock.registerRenderLayer();
+			ElvilBlock.registerRenderLayer();
 		}
 	}
 }

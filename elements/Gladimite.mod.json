@@ -48,7 +48,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "CUSTOM:Bmod"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

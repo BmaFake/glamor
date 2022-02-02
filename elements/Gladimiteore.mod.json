@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "gladimite_ore_texture",
     "customModelName": "Normal",
-    "name": "Gladimita",
+    "name": "Gladore",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:Bmod"
     },
     "stackSize": 16,
     "enchantability": 0,

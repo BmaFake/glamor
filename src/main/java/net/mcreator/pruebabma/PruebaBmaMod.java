@@ -24,6 +24,8 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.pruebabma.init.PruebaBmaModTabs;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -38,7 +40,7 @@ public class PruebaBmaMod {
 	private static int messageID = 0;
 
 	public PruebaBmaMod() {
-
+		PruebaBmaModTabs.load();
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,

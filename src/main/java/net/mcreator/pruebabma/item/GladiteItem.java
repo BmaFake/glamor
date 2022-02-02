@@ -4,11 +4,12 @@ package net.mcreator.pruebabma.item;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.pruebabma.init.PruebaBmaModTabs;
 
 public class GladiteItem extends Item {
 	public GladiteItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(64).rarity(Rarity.RARE));
+		super(new Item.Properties().tab(PruebaBmaModTabs.TAB_BMOD).stacksTo(64).rarity(Rarity.RARE));
 		setRegistryName("gladite");
 	}
 

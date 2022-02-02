@@ -3,6 +3,8 @@ package net.mcreator.pruebabma.item;
 
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.client.IItemRenderProperties;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
@@ -118,6 +120,27 @@ public abstract class DarkmorItem extends ArmorItem {
 		public Leggings() {
 			super(EquipmentSlot.LEGS, new Item.Properties().tab(PruebaBmaModTabs.TAB_BMOD));
 			setRegistryName("darkmor_leggings");
+		}
+
+		public void initializeClient(java.util.function.Consumer<net.minecraftforge.client.IItemRenderProperties> consumer) {
+			consumer.accept(new IItemRenderProperties() {
+				@Override
+				@OnlyIn(Dist.CLIENT)
+				public HumanoidModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
+					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(), Map.of("left_leg",
+							new Modelsteve(Minecraft.getInstance().getEntityModels().bakeLayer(Modelsteve.LAYER_LOCATION)).RightLegging, "right_leg",
+							new Modelsteve(Minecraft.getInstance().getEntityModels().bakeLayer(Modelsteve.LAYER_LOCATION)).LeftLegging, "head",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
+					armorModel.crouching = living.isShiftKeyDown();
+					armorModel.riding = defaultModel.riding;
+					armorModel.young = living.isBaby();
+					return armorModel;
+				}
+			});
 		}
 
 		@Override

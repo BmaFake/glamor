@@ -20,7 +20,7 @@
         "effect": {
           "value": "LEVITATION"
         },
-        "duration": 3600,
+        "duration": 30,
         "amplifier": 0,
         "ambient": false,
         "showParticles": true

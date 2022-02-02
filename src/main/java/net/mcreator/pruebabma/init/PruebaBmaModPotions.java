@@ -19,7 +19,7 @@ import java.util.ArrayList;
 public class PruebaBmaModPotions {
 	private static final List<Potion> REGISTRY = new ArrayList<>();
 	public static final Potion ELVIL_POTION = register(new Potion(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 3600, 0, false, true),
-			new MobEffectInstance(MobEffects.LEVITATION, 3600, 0, false, true)).setRegistryName("elvil_potion"));
+			new MobEffectInstance(MobEffects.LEVITATION, 30, 0, false, true)).setRegistryName("elvil_potion"));
 
 	private static Potion register(Potion potion) {
 		REGISTRY.add(potion);

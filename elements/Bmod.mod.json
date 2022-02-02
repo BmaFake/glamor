@@ -6,6 +6,6 @@
     "icon": {
       "value": "CUSTOM:Gladite"
     },
-    "showSearch": true
+    "showSearch": false
   }
 }

@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.pruebabma.item.GlamorpicaxeItem;
 import net.mcreator.pruebabma.item.GladiteItem;
+import net.mcreator.pruebabma.item.GladimiteswordItem;
 import net.mcreator.pruebabma.item.GladimiteoreItem;
 import net.mcreator.pruebabma.item.ElvildustItem;
 import net.mcreator.pruebabma.item.DarkmorItem;
@@ -35,6 +36,7 @@ public class PruebaBmaModItems {
 	public static final Item DARKMOR_CHESTPLATE = register(new DarkmorItem.Chestplate());
 	public static final Item DARKMOR_LEGGINGS = register(new DarkmorItem.Leggings());
 	public static final Item DARKMOR_BOOTS = register(new DarkmorItem.Boots());
+	public static final Item GLADIMITESWORD = register(new GladimiteswordItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

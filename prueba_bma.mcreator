@@ -133,6 +133,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "bmod"
+    },
+    {
+      "name": "Gladimitesword",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gladimitesword"
+    },
+    {
+      "name": "Mesacrafteoprueba",
+      "type": "gui",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mesacrafteoprueba"
     }
   ],
   "variable_elements": [],
@@ -153,7 +169,8 @@
       "item.minecraft.splash_potion.effect.elvil_potion": "Splash Potion of Elvil ",
       "item.prueba_bma.glamorpicaxe": "Glorpicaxe",
       "item.prueba_bma.darkmor_helmet": "Darkmor Helmet",
-      "block.prueba_bma.elvil": "Elvil"
+      "block.prueba_bma.elvil": "Elvil",
+      "item.prueba_bma.gladimitesword": "Gladimitesword"
     }
   },
   "foldersRoot": {
@@ -177,5 +194,5 @@
     "modElementsPackage": "net.mcreator.pruebabma",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100353117
+  "mcreatorVersion": 202100354000
 }
